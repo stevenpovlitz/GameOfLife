@@ -1,6 +1,6 @@
 # Game-Of-Life
 
-C++ class based implementation of Conway's Game of Life
+C++ class based implementation of Conway's Game of Life. Note: Unix specific sleep function was used to create delay. On windows machines, adding the line "cin.ignore();" anywhere in the while loop in the main method at the bottom of the program will cause the program to only advance when "enter" is pressed.
 
 ![alt tag](http://i.imgur.com/7uZckVq.gif)
 
